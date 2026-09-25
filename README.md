@@ -26,11 +26,16 @@ The raw export (10,000 rows × 26 columns) contained several real-world data qua
 *Full before/after log is available on the **Data Quality Log** tab of the workbook.*
 
 ---
+## 📊 Key Findings (Data Insights)
 
-## Key Findings
-* **Demographics:** Hypertension is the most prevalent condition overall and skews strongly male; Obesity skews female. Seniors (ages 66–85) carry the heaviest overall condition burden.
-* **Pricing Drivers:** Medical Condition is the primary billing driver — Cancer patients average ~3x higher billing than Obesity patients. Insurance provider and age group show minimal impact on average billing amounts.
-* **Resource Management:** Emergency and Urgent admissions average ~55% longer stays than Elective admissions. Monthly admission volume remains consistent throughout the year without pronounced seasonal spikes.
+* **Demographics (Condition by Gender & Age):** 
+  Hypertension is the most prevalent condition overall (2,155 cases) and skews heavily male (1,319 Male vs. 836 Female). Conversely, Obesity skews heavily female (1,015 Female vs. 612 Male). Seniors (ages 66–85) carry the heaviest overall condition burden, representing the highest admission group for Arthritis, Cancer, and Hypertension.
+
+* **Pricing Drivers (Cost Variation):** 
+  Medical Condition is the primary billing driver. Cancer treatments are the most expensive, averaging **$39,688.60** per admission. In contrast, Obesity admissions average just **$12,511.42**. This reveals that Cancer patients generate approximately **3.17x** higher average billing than Obesity patients. 
+
+* **Resource Management (Length of Stay):** 
+  Urgent and Emergency admissions require significantly more hospital resources than planned visits. Elective admissions average a **9.97-day** length of stay, while Emergency (**15.62 days**) and Urgent (**15.42 days**) admissions run roughly **55% longer**.
 
 ---
 
